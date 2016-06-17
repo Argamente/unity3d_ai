@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// 逃避
 public class SteeringForEvade : Steering {
     public GameObject target;
     private Vector3 desiredVelocity;
